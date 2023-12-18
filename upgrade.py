@@ -162,9 +162,6 @@ class Upgrade():
                         if "event_category_override" in new_rule and "event_category_override" in current_rule:
                             new_rule["event_category_override"] = current_rule["event_category_override"]
 
-                        if "event_category_override" in new_rule and "event_category_override" in current_rule:
-                            new_rule["event_category_override"] = current_rule["event_category_override"]
-
                         # Transfer enabled setting
                         if "enabled" in new_rule and "enabled" in current_rule:
                             new_rule["enabled"] = current_rule["enabled"]
